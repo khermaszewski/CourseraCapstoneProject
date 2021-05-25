@@ -1,0 +1,68 @@
+root - ERROR - Error: Invalid URL 'sdlfghjvas': No schema supplied. Perhaps you meant http://sdlfghjvas?
+Traceback (most recent call last):
+  File "<ipython-input-33-8a35c4cc181a>", line 5, in <module>
+    response = requests.get(url)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 314, in prepare
+    self.prepare_url(url, params)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 388, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'sdlfghjvas': No schema supplied. Perhaps you meant http://sdlfghjvas?
+root - ERROR - Error: Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File "<ipython-input-34-6853f2906a8b>", line 5, in <module>
+    response = requests.get(url)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 314, in prepare
+    self.prepare_url(url, params)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 388, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+root - ERROR - Invalid URL '': No schema supplied. Perhaps you meant http://?
+Traceback (most recent call last):
+  File "<ipython-input-36-ec13894ee17c>", line 5, in <module>
+    response = requests.get(url)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 314, in prepare
+    self.prepare_url(url, params)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 388, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+root - ERROR - An exception occured.
+Traceback (most recent call last):
+  File "<ipython-input-37-dc6d4badb57a>", line 5, in <module>
+    response = requests.get(url)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 516, in request
+    prep = self.prepare_request(req)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\sessions.py", line 449, in prepare_request
+    p.prepare(
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 314, in prepare
+    self.prepare_url(url, params)
+  File "C:\Program Files (x86)\Python38-32\lib\site-packages\requests\models.py", line 388, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'g': No schema supplied. Perhaps you meant http://g?
